@@ -5,5 +5,5 @@ test("hunter can hunt dog", () => {
   const wildDog = new WildDog();
   const wildDogAdapter = new WildDogAdapter(wildDog);
 
-  expect(() => hunter.hunt(wildDogAdapter)).not.toThrowError()
+  expect(() => hunter.hunt(wildDogAdapter)).not.toThrowError();
 });
