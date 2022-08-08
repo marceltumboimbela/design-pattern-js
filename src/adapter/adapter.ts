@@ -3,11 +3,15 @@ interface Lion {
 }
 
 class AfricanLion implements Lion {
-  roar() {}
+  roar() {
+    return;
+  }
 }
 
 class AsianLion implements Lion {
-  roar() {}
+  roar() {
+    return;
+  }
 }
 
 interface Dog {
@@ -15,7 +19,9 @@ interface Dog {
 }
 
 export class WildDog implements Dog {
-  bark() {}
+  bark() {
+    return;
+  }
 }
 
 export class WildDogAdapter implements Lion {
