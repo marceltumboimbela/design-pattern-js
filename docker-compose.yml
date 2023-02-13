@@ -6,7 +6,4 @@ services:
       context: .
     volumes:
       - ./:/app
-      - exclude:/app/node_modules
-
-volumes:
-  exclude:
+      - /app/node_modules
